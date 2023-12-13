@@ -34,8 +34,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
-  background-color: #f7ead7;
+  background-color: #d59a8ca1;
 }
 
 /*
@@ -67,3 +66,300 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+}
+
+section {
+  padding: 40px;
+}
+
+main {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  padding: 1em
+}
+
+p {
+  text-align: center;
+  padding: 1em
+}
+
+.my-work {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+}
+
+.work-item {
+  text-align: left; 
+}
+
+.work-item img {
+  width: 100%; 
+}
+
+.work-item img {
+  width: 100%; 
+  object-fit: cover; 
+  height: 400px; 
+  object-position: center; /
+}
+
+.work-item {
+  text-align: left; 
+  border: 3px solid #0d0c0c; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+/*AMY GOES HERE*/
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+  align-items: center; 
+}
+
+.about-container img {
+  width: 900%; 
+  object-fit: cover; 
+  height: 360px; 
+  object-position: center; 
+  border-radius: 20px; 
+  overflow: hidden; 
+}
+
+
+.text-container {
+  text-align: center;
+  display: grid;
+  align-items:baseline;
+}
+
+.text-container p {
+  margin: 0 0 10px; 
+}
+
+p {
+  text-align: left;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+  align-items: center; 
+  border: 2px solid #ddd; 
+  border-radius: 10px; 
+  padding: 20px; 
+}
+
+.text-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+button {
+  padding: 10px;
+  background-color: #db345b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d6cf64;
+}
+
+/* Header and Footer section */
+
+
+header {
+  background-color:#c56d6d;
+  color: #c56d6d;
+  padding: 1em;
+  text-align: center;
+  position: relative; 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+}
+
+.header-logo {
+  max-width: 50px; 
+}
+
+.header-title {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Footer section */
+
+
+.footer-logo {
+  max-width: 80px; 
+}
+
+footer p {
+  margin: 0;
+  text-align: right; 
+}
+
+footer {
+  background-color: #c56d6d;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  position:relative; 
+  margin-top: 60px;
+}
+
+.hidden-text {
+  display: none;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  max-width: 900px; 
+  margin: 0 auto; 
+}
+
+.skill {
+  flex: 0 0 calc(33.33% - 12px); 
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+}
+.skill,
+.skill6 {
+  background-color: #165e8d;
+  border-radius: 10px; 
+}
+
+.skill2 {
+  background-color: #8f2013;
+  border-radius: 5px;
+}
+
+.skill3 {
+  background-color: #14939a;
+  border-radius: 0; 
+}
+
+.skill4 {
+  background-color: #e5b260;
+  border-radius: 10px;
+}
+
+.skill5 {
+  background-color: #9b59b6;
+  border-radius: 12px;
+}
+
+.skill6 {
+  background-color: #cf3aa0;
+  border-radius: 7px;
+}
+
+/* CONTACT SECTION */
+
+.contact-container {
+  background-color: #d0a0e3;
+  border-radius: 15px; 
+  padding: 1px; 
+  margin-top: 2px; 
+  max-width: 600px; 
+  max-height: 400px;
+  margin: 10px;
+}
+
+.contact-container h2 {
+  text-align: left;
+}
+
+.contact-container button {
+  margin-top: 2px; 
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 4px;
+  background-color: #db345b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #b9b229;
+}
+
+/**Used ChatGPT for this section**/
+@media screen and (max-width: 767px) {
+  /* Adjustments for smaller screens */
+
+  header {
+    padding: 1em; /* Reduce padding for header on smaller screens */
+  }
+
+  .footer-container {
+    padding: 1em; /* Reduce padding for footer on smaller screens */
+  }
+
+  .footer-logo {
+    max-width: 30px; /* Adjusted the max-width for smaller screens */
+  }
+
+  .contact-container {
+    max-width: 100%; 
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    padding: 4em; /* Adjust padding for desktop header */
+  }
+
+  .footer-container {
+    padding: 2em; /* Adjust padding for desktop footer */
+  }
+
+  .contact-container {
+    max-width: 800px; 
+}
+}
